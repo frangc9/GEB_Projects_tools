@@ -1,5 +1,5 @@
 # **GEB Projects tools setup**
-
+## *Francisca García, David Bonillo and Adrià Francès*
 The objectives of this section are:
 - Setup an Engineering project in student's github
 - Review the needed tools
