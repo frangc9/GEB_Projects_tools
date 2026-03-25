@@ -21,6 +21,9 @@ This sensor is mounted on a PCB (Endo-module) with an ESP32 microprocessor to pr
 - Pitch: as a rotation across WCF y axis
 - Yaw: as a rotation across WCF z axis (corresponds to the Geographical Gravity direction)
 
+**Reference Materials**:
+- [ESP32 on Amazon](https://www.amazon.es/gp/product/B0D4QZ9CKD?th=1)
+- [IMU on Amazon](https://www.amazon.es/dp/B0785D9BWQ)
 
 ### Hardware-Software setup
 The **hardware setup** of this Lab session is based on:
