@@ -5,7 +5,7 @@ The first part of the practice consisted on getting familiarized with github and
 
 ### 3D orientation in space
 ----
-The case example consisted in usign an ESP32 (IP:192.168.1.32) based PCB board with an IMU (Inertial Mass Unit) sensor to obtain 3D orientation in a 3D space. The IMU integrates three sensors (a gyroscope to measure the angular speed, an accelerometer to measure the linear accelaration and a compass to have a reference to the geographical world) and a DMP microcontroller to process data an obtain its proper RPY (Roll-Pitch-Yaw) 3-D orientation.   
+The case example consisted in using an ESP32 (IP:192.168.1.32) based PCB board with an IMU (Inertial Mass Unit) sensor to obtain 3D orientation in a 3D space. The IMU integrates three sensors (a gyroscope to measure the angular speed, an accelerometer to measure the linear accelaration and a compass to have a reference with the Earth's magnetic North Pole) and a DMP microcontroller to process data an obtain its proper RPY (Roll-Pitch-Yaw) 3-D orientation.   
 
 The next step was to build up the Hardware-Software setup. The **hardware setup** was based on a "Robotics_UB" router to assign a fixed IP address to each module and the hardware modules (the endo-module board with an ESP32 and the PC control with roboDK program and python scripts). On the other hand, the **software setup** was based on an Arduino program for the endo-module to obtain the 3D orientation, a RoboDK virtual environment to visualize a 3D object orientation in that space, and Python script programs to read data. Once the system was build, we were asked to complete a series of tasks:
 
